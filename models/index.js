@@ -13,7 +13,8 @@ const sequelize = new Sequelize(
             acquire: dbConfig.pool.acquire,
             idle: dbConfig.pool.idle
         },
-    });
+    }
+);
 const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;

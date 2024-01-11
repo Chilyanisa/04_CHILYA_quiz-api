@@ -52,7 +52,7 @@ exports.update = async (req, res) => {
             data: null,
         });
     }
-}
+};
 
 //Mengahpus data sesuai id yang dikirimkan
 exports.delete = async (req, res) => {
